@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Meme for Darren</title>
+    <style>
+        /* Styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        /* Centering the content */
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Styling the title */
+        h1 {
+            color: #ff4081;
+        }
+        
+        /* Styling the meme image */
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+        }
+
+        /* Styling the button */
+        button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #f50057;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>For me you're perfect! ⸜(｡˃ ᵕ ˂)⸝♡ </h1>
+        <p>Here’s a little something to make you smile! 😄</p>
+        
+        <!-- Example meme image -->
+        <img src="https://www.example.com/meme.jpg" alt="Meme Image">
+        
+        <!-- A button that does nothing for now -->
+        <button onclick="alert('Hope you enjoyed the meme!')">Click me for a surprise!</button>
+    </div>
+
+</body>
+</html>
